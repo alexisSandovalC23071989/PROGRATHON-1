@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aldav\\OneDrive\\Desktop\\Tarea Programacion\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|c:\\users\\aldav\\onedrive\\desktop\\tarea programacion\\api\\api\\controllers\\comercioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|solutionrelative:api\\controllers\\comercioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ComerciosController.cs",
+              "DocumentMoniker": "C:\\Users\\aldav\\OneDrive\\Desktop\\Tarea Programacion\\API\\API\\Controllers\\ComerciosController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ComerciosController.cs",
+              "ToolTip": "C:\\Users\\aldav\\OneDrive\\Desktop\\Tarea Programacion\\API\\API\\Controllers\\ComerciosController.cs",
+              "RelativeToolTip": "API\\Controllers\\ComerciosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T21:29:18.075Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

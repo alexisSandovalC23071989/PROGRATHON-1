@@ -3961,11 +3961,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aldav\\OneDrive\\Desktop\\Progra_Avanzada_VN_G-5\\Progra_Ananzada_VN_5\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
+      "projectUniqueName": "C:\\Users\\aldav\\OneDrive\\Desktop\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
       "projectName": "Proyecto_Programacion",
-      "projectPath": "C:\\Users\\aldav\\OneDrive\\Desktop\\Progra_Avanzada_VN_G-5\\Progra_Ananzada_VN_5\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
+      "projectPath": "C:\\Users\\aldav\\OneDrive\\Desktop\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
       "packagesPath": "C:\\Users\\aldav\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aldav\\OneDrive\\Desktop\\Progra_Avanzada_VN_G-5\\Progra_Ananzada_VN_5\\Proyecto_Programacion\\obj\\",
+      "outputPath": "C:\\Users\\aldav\\OneDrive\\Desktop\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,10 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aldav\\OneDrive\\Desktop\\Tarea Programacion\\API\\",
+  "WorkspaceRootPath": "C:\\Users\\aldav\\OneDrive\\Desktop\\PROGRATHON-1\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|c:\\users\\aldav\\onedrive\\desktop\\tarea programacion\\api\\api\\controllers\\comercioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|solutionrelative:api\\controllers\\comercioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\aldav\\onedrive\\desktop\\prograthon-1\\progra_ananzada\\proyecto_programacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +18,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ComerciosController.cs",
-              "DocumentMoniker": "C:\\Users\\aldav\\OneDrive\\Desktop\\Tarea Programacion\\API\\API\\Controllers\\ComerciosController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\ComerciosController.cs",
-              "ToolTip": "C:\\Users\\aldav\\OneDrive\\Desktop\\Tarea Programacion\\API\\API\\Controllers\\ComerciosController.cs",
-              "RelativeToolTip": "API\\Controllers\\ComerciosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aldav\\OneDrive\\Desktop\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Program.cs",
+              "ToolTip": "C:\\Users\\aldav\\OneDrive\\Desktop\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Program.cs",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T21:29:18.075Z",
+              "WhenOpened": "2025-11-03T04:43:21.961Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,16 @@
+﻿@page
+@model Proyecto_Programacion.Pages.Reservas.EliminarModel
+@{
+    ViewData["Title"] = "Eliminar Reserva";
+}
+
+<h2>Eliminar Reserva</h2>
+
+<div class="alert alert-danger">
+    ¿Seguro que deseas eliminar la reserva con ID <strong>@Model.Reserva.Id</strong>?
+</div>
+
+<form method="post">
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a href="/Reservas" class="btn btn-secondary">Cancelar</a>
+</form>

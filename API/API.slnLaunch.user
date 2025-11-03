@@ -7,7 +7,7 @@
         "Action": "Start"
       },
       {
-        "Path": "..\\Progra_Ananzada_VN_5\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
+        "Path": "..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
         "Action": "Start"
       }
     ]

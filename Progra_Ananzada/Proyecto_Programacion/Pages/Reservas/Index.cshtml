@@ -1,0 +1,36 @@
+﻿@page
+@model Proyecto_Programacion.Pages.Reservas.IndexModel
+@{
+    ViewData["Title"] = "Reservas";
+}
+
+<h2>Lista de Reservas</h2>
+
+<a href="/Reservas/Crear" class="btn btn-primary mb-3">Crear Reserva</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>ID Usuario</th>
+            <th>ID Laboratorio</th>
+            <th>Fecha</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model.ListaReservas)
+        {
+            <tr>
+                <td>@r.Id</td>
+                <td>@r.IdUsuario</td>
+                <td>@r.IdLaboratorio</td>
+                <td>@r.Fecha</td>
+                <td>
+                    <a class="btn btn-warning btn-sm" href="/Reservas/Editar?id=@r.Id">Editar</a>
+                    <a class="btn btn-danger btn-sm" href="/Reservas/Eliminar?id=@r.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

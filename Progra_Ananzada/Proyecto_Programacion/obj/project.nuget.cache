@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0i+2L+bslyA=",
+  "dgSpecHash": "Njlz5LiHVdo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aldav\\OneDrive\\Desktop\\Progra_Avanzada_VN_G-5\\Progra_Ananzada_VN_5\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
+  "projectFilePath": "C:\\Users\\aldav\\OneDrive\\Desktop\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aldav\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\aldav\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",
@@ -83,9 +83,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "El paquete \"Microsoft.AspNet.Mvc 5.3.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "projectPath": "C:\\Users\\aldav\\OneDrive\\Desktop\\Progra_Avanzada_VN_G-5\\Progra_Ananzada_VN_5\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
+      "projectPath": "C:\\Users\\aldav\\OneDrive\\Desktop\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\aldav\\OneDrive\\Desktop\\Progra_Avanzada_VN_G-5\\Progra_Ananzada_VN_5\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
+      "filePath": "C:\\Users\\aldav\\OneDrive\\Desktop\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
       "libraryId": "Microsoft.AspNet.Mvc",
       "targetGraphs": [
         "net8.0"
@@ -95,9 +95,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "El paquete \"Microsoft.AspNet.Razor 3.3.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "projectPath": "C:\\Users\\aldav\\OneDrive\\Desktop\\Progra_Avanzada_VN_G-5\\Progra_Ananzada_VN_5\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
+      "projectPath": "C:\\Users\\aldav\\OneDrive\\Desktop\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\aldav\\OneDrive\\Desktop\\Progra_Avanzada_VN_G-5\\Progra_Ananzada_VN_5\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
+      "filePath": "C:\\Users\\aldav\\OneDrive\\Desktop\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
       "libraryId": "Microsoft.AspNet.Razor",
       "targetGraphs": [
         "net8.0"
@@ -107,9 +107,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "El paquete \"Microsoft.AspNet.WebPages 3.3.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "projectPath": "C:\\Users\\aldav\\OneDrive\\Desktop\\Progra_Avanzada_VN_G-5\\Progra_Ananzada_VN_5\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
+      "projectPath": "C:\\Users\\aldav\\OneDrive\\Desktop\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\aldav\\OneDrive\\Desktop\\Progra_Avanzada_VN_G-5\\Progra_Ananzada_VN_5\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
+      "filePath": "C:\\Users\\aldav\\OneDrive\\Desktop\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
       "libraryId": "Microsoft.AspNet.WebPages",
       "targetGraphs": [
         "net8.0"
@@ -119,9 +119,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "El paquete \"Microsoft.Web.Infrastructure 1.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "projectPath": "C:\\Users\\aldav\\OneDrive\\Desktop\\Progra_Avanzada_VN_G-5\\Progra_Ananzada_VN_5\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
+      "projectPath": "C:\\Users\\aldav\\OneDrive\\Desktop\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\aldav\\OneDrive\\Desktop\\Progra_Avanzada_VN_G-5\\Progra_Ananzada_VN_5\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
+      "filePath": "C:\\Users\\aldav\\OneDrive\\Desktop\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
       "libraryId": "Microsoft.Web.Infrastructure",
       "targetGraphs": [
         "net8.0"

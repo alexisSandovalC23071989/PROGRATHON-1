@@ -1,0 +1,27 @@
+﻿@page
+@model Proyecto_Programacion.Pages.Laboratorios.EditarModel
+@{
+    ViewData["Title"] = "Editar Laboratorio";
+}
+
+<h2>Editar Laboratorio</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label>Nombre</label>
+        <input asp-for="Laboratorio.Nombre" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Ubicación</label>
+        <input asp-for="Laboratorio.Ubicacion" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Capacidad</label>
+        <input asp-for="Laboratorio.Capacidad" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+    <a href="/Laboratorios" class="btn btn-secondary">Cancelar</a>
+</form>

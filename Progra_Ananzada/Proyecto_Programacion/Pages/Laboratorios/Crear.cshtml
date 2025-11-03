@@ -1,0 +1,27 @@
+﻿@page
+@model Proyecto_Programacion.Pages.Laboratorios.CrearModel
+@{
+    ViewData["Title"] = "Crear Laboratorio";
+}
+
+<h2>Crear Laboratorio</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label>Nombre</label>
+        <input asp-for="Laboratorio.Nombre" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Capacidad</label>
+        <input asp-for="Laboratorio.Capacidad" type="number" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Responsable</label>
+        <input asp-for="Laboratorio.Responsable" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-success mt-3">Guardar</button>
+    <a href="/Laboratorios" class="btn btn-secondary mt-3">Cancelar</a>
+</form>

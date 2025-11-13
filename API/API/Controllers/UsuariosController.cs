@@ -26,7 +26,7 @@ namespace API.Controllers
 
         }
 
-        [HttpGet]
+        [HttpGet ("Listar Usuarios")]
 
         public IActionResult Get()
 
@@ -36,7 +36,7 @@ namespace API.Controllers
 
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("Listar Usuarios por ID")]
 
         public IActionResult Get(int id)
 
@@ -52,7 +52,7 @@ namespace API.Controllers
 
         }
 
-        [HttpPost]
+        [HttpPost ("Agregar Usuarios")]
 
         public IActionResult Post([FromBody] UsuarioModel usuario)
 
@@ -64,7 +64,7 @@ namespace API.Controllers
 
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("Editar Usuarios")]
 
         public IActionResult Put(int id, [FromBody] UsuarioModel usuario)
 
@@ -80,7 +80,7 @@ namespace API.Controllers
 
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("Eliminar Usuarios")]
 
         public IActionResult Delete(int id)
 

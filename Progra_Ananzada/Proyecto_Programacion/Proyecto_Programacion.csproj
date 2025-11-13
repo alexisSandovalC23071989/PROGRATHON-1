@@ -14,6 +14,11 @@
     </PackageReference>
     <PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.2" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
+    <PackageReference Include="Soenneker.Blazor.MediaQuery" Version="4.0.1403" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\img\" />
   </ItemGroup>
 
 </Project>

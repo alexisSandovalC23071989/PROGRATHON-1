@@ -11,7 +11,8 @@
           "Microsoft.AspNet.Mvc": "5.3.0",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.20",
           "MySql.EntityFrameworkCore": "8.0.2",
-          "Pomelo.EntityFrameworkCore.MySql": "8.0.2"
+          "Pomelo.EntityFrameworkCore.MySql": "8.0.2",
+          "Soenneker.Blazor.MediaQuery": "4.0.1403"
         },
         "runtime": {
           "Proyecto_Programacion.dll": {}
@@ -613,6 +614,7 @@
           }
         }
       },
+      "Soenneker.Blazor.MediaQuery/4.0.1403": {},
       "System.Buffers/4.5.1": {},
       "System.CodeDom/4.4.0": {
         "runtime": {
@@ -1146,6 +1148,13 @@
       "sha512": "sha512-XjnlcxVBLnEMbyEc5cZzgZeDyLvAniACZQ04W1slWN0f4rmfNzl98gEMvHnFH0fMDF06z9MmgGi/Sr7hJ+BVnw==",
       "path": "pomelo.entityframeworkcore.mysql/8.0.2",
       "hashPath": "pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512"
+    },
+    "Soenneker.Blazor.MediaQuery/4.0.1403": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PKCGvgH+XltZg11lX0wXtBFQxXneNcxurTWA6b9vFQOlQc9vyC50i2Nv7qlGOWV8FVHUIWn6G41Mak/j0/wyHQ==",
+      "path": "soenneker.blazor.mediaquery/4.0.1403",
+      "hashPath": "soenneker.blazor.mediaquery.4.0.1403.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",

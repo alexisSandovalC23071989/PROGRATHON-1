@@ -67,6 +67,10 @@
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Soenneker.Blazor.MediaQuery": {
+              "target": "Package",
+              "version": "[4.0.1403, )"
             }
           },
           "imports": [

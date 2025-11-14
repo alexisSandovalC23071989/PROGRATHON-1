@@ -1,10 +1,97 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aldav\\OneDrive\\Desktop\\PROGRATHON-1\\API\\",
+  "WorkspaceRootPath": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|c:\\users\\aldav\\onedrive\\desktop\\prograthon-1\\api\\api\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|solutionrelative:api\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\proyecto_programacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\pages\\laboratorios\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\pages\\laboratorios\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\pages\\laboratorios\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\pages\\laboratorios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\pages\\reservas\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\pages\\reservas\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\pages\\reservas\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\pages\\reservas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\pages\\usuarios\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\pages\\usuarios\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\pages\\usuarios\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\pages\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\service\\laboratorioapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7528CBC2-13DA-F7B6-DD77-D783DD8B0292}|..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\progra_ananzada\\proyecto_programacion\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\api\\api\\service\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|solutionrelative:api\\service\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\api\\api\\service\\laboratorioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|solutionrelative:api\\service\\laboratorioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\api\\api\\service\\irepositorioenmemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|solutionrelative:api\\service\\irepositorioenmemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\api\\api\\model\\laboratoriomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|solutionrelative:api\\model\\laboratoriomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\api\\api\\service\\reservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|solutionrelative:api\\service\\reservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|c:\\users\\usuario\\documents\\progra_avanzada\\vn_iiicuatri\\prograthon-1\\prograthon-1\\api\\api\\controllers\\laboratorioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10FF425-9640-41A4-BC29-8C10CD156F60}|API\\API.csproj|solutionrelative:api\\controllers\\laboratorioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +101,374 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ReservasController.cs",
-              "DocumentMoniker": "C:\\Users\\aldav\\OneDrive\\Desktop\\PROGRATHON-1\\API\\API\\Controllers\\ReservasController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\ReservasController.cs",
-              "ToolTip": "C:\\Users\\aldav\\OneDrive\\Desktop\\PROGRATHON-1\\API\\API\\Controllers\\ReservasController.cs",
-              "RelativeToolTip": "API\\Controllers\\ReservasController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAACgAAAAhAAAAAAAAAA==",
+              "Title": "Proyecto_Programacion",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Proyecto_Programacion.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-14T00:07:41.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-13T23:55:36.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Laboratorios\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Laboratorios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Laboratorios\\Index.cshtml",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Laboratorios\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T23:01:58.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Laboratorios\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Laboratorios\\Eliminar.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Laboratorios\\Eliminar.cshtml",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Laboratorios\\Eliminar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T23:51:20.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Laboratorios\\Editar.cshtml",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Laboratorios\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Laboratorios\\Editar.cshtml",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Laboratorios\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T23:51:16.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Laboratorios\\Crear.cshtml",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Laboratorios\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Laboratorios\\Crear.cshtml",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Laboratorios\\Crear.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T23:51:10.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Index.cshtml",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAAAIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T23:22:21.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Reservas\\Crear.cshtml",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Reservas\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Reservas\\Crear.cshtml",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Reservas\\Crear.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T23:51:25.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Reservas\\Editar.cshtml",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Reservas\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Reservas\\Editar.cshtml",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Reservas\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T23:51:30.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Reservas\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Reservas\\Eliminar.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Reservas\\Eliminar.cshtml",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Reservas\\Eliminar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T23:51:35.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Reservas\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Reservas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Reservas\\Index.cshtml",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Reservas\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T23:49:00.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Usuarios\\Crear.cshtml",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Usuarios\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Usuarios\\Crear.cshtml",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Usuarios\\Crear.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T23:53:30.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Usuarios\\Editar.cshtml",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Usuarios\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Usuarios\\Editar.cshtml",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Usuarios\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T23:53:27.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Usuarios\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T23:48:29.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Usuarios\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Usuarios\\Eliminar.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Usuarios\\Eliminar.cshtml",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Pages\\Usuarios\\Eliminar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T23:48:39.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LaboratorioApiService.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Service\\LaboratorioApiService.cs",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Service\\LaboratorioApiService.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Service\\LaboratorioApiService.cs",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Service\\LaboratorioApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T02:23:10.488Z",
+              "WhenOpened": "2025-11-13T23:01:46.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T22:57:07.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T22:58:37.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T23:01:02.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T23:01:00.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "..\\Progra_Ananzada\\Proyecto_Programacion\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\Progra_Ananzada\\Proyecto_Programacion\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "..\\Progra_Ananzada\\Proyecto_Programacion\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T22:58:46.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\API\\API\\Service\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "API\\Service\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\API\\API\\Service\\UsuarioService.cs",
+              "RelativeToolTip": "API\\Service\\UsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T22:58:17.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LaboratorioModel.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\API\\API\\Model\\LaboratorioModel.cs",
+              "RelativeDocumentMoniker": "API\\Model\\LaboratorioModel.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\API\\API\\Model\\LaboratorioModel.cs",
+              "RelativeToolTip": "API\\Model\\LaboratorioModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T22:58:06.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ReservaService.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\API\\API\\Service\\ReservaService.cs",
+              "RelativeDocumentMoniker": "API\\Service\\ReservaService.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\API\\API\\Service\\ReservaService.cs",
+              "RelativeToolTip": "API\\Service\\ReservaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T22:57:22.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IRepositorioEnMemoria.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\API\\API\\Service\\IRepositorioEnMemoria.cs",
+              "RelativeDocumentMoniker": "API\\Service\\IRepositorioEnMemoria.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\API\\API\\Service\\IRepositorioEnMemoria.cs",
+              "RelativeToolTip": "API\\Service\\IRepositorioEnMemoria.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T22:56:27.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LaboratorioService.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\API\\API\\Service\\LaboratorioService.cs",
+              "RelativeDocumentMoniker": "API\\Service\\LaboratorioService.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\API\\API\\Service\\LaboratorioService.cs",
+              "RelativeToolTip": "API\\Service\\LaboratorioService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T22:56:29.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\API\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\API\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T22:56:46.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LaboratoriosController.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\API\\API\\Controllers\\LaboratoriosController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\LaboratoriosController.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Progra_Avanzada\\VN_IIICuatri\\PROGRATHON-1\\PROGRATHON-1\\API\\API\\Controllers\\LaboratoriosController.cs",
+              "RelativeToolTip": "API\\Controllers\\LaboratoriosController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T02:32:16.662Z",
               "EditorCaption": ""
             }
           ]

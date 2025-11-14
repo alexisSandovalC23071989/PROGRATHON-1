@@ -4,6 +4,26 @@
     ViewData["Title"] = "Inicio";
 }
 
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/site.js"></script>
+</head>
+
+<body>
+
+<header role="banner" class="site-header">
+    <h1 class="site-title">Inicio</h1>
+    <div class="controls" role="toolbar" aria-label="Controles de accesibilidad">
+        <button id="btn-contrast" class="btn small" type="button" aria-pressed="false" aria-label="Activar modo alto contraste">Alto contraste</button>
+        <button id="btn-font-increase" class="btn small" type="button" aria-label="Aumentar tamaño de letra">A+</button>
+        <button id="btn-font-decrease" class="btn small" type="button" aria-label="Disminuir tamaño de letra">A-</button>
+    </div>
+</header>
+
 <div class="container my-5">
 
     <!-- Encabezado centrado -->
@@ -64,16 +84,36 @@
 
     </div>
 </div>
+
+    <footer role="contentinfo" class="site-footer">
+        <p>&copy; @DateTime.Now.Year - MiApp</p>
+    </footer>
+
+    <!-- Live region para mensajes que deben anunciarse a lectores de pantalla -->
+    <div id="live-region" aria-live="polite" aria-atomic="true" class="sr-only"></div>
+
+</body>
+
+
 <style>
 
     :root {
-        --bg: #0b1220;
+        --bg: #ffffff;
         --panel: #0f172a;
         --line: #1f2a3a;
-        --text: #e8edf6;
+        --text: #111111;
         --muted: #a6b2c6;
         --hero-a: #101a2f;
         --hero-b: #161d35;
+
+        /* Agregar para accesibilidad */
+        --base-font: 1rem;
+        --scale-factor: 1; /* multiplicador para cambiar tamaño dinámicamente */
+        --primary: #001234;
+        --accent: #00695c;
+        --focus: 3px solid #ffb300; /* outline visible */
+        --link-underline: 1px solid currentColor;
+
         /* Acentos */
         --blue: #76a7ff;
         --blue-bg: rgba(118,167,255,.14);
@@ -84,10 +124,21 @@
         --radius: 16px;
     }
 
-    /* Fondo y tipografía */
+    html {
+        font-size: 16px;
+    }
+
+    /* base for rem */
     body {
-        background: var(--bg);
+        font-size: calc(var(--base-font) * var(--scale-factor));
+        font-family: "Segoe UI", Roboto, Arial, sans-serif;
         color: var(--text);
+        background: var(--bg);
+        line-height: 1.4;
+    }
+
+    h1, h2, h3 {
+        line-height: 1.2;
     }
 
     /* Encabezado */
@@ -97,114 +148,79 @@
         border-radius: var(--radius);
     }
 
-    .sub {
-        color: var(--muted);
-    }
-
-    /* Utilidades de layout para el header */
-    .header-wrap {
-        max-width: 900px;
-        margin: 0 auto;
-    }
-
-    .header-body {
-        min-height: 160px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    /* Tiles */
-    .tile-link {
-        text-decoration: none;
-        color: inherit;
-        display: block;
-    }
-
-    .tile {
-        background: var(--panel);
-        border: 1px solid var(--line);
-        border-radius: var(--radius);
-        padding: 14px;
-    }
-
-    /* Imagen + badge + banda */
-    .tile-img {
-        position: relative;
-        width: 100%;
-        height: 150px;
-        border-radius: 12px;
-        overflow: hidden;
-        border: 1px solid var(--line);
-        margin-bottom: 12px;
-    }
-
-        .tile-img img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-
-    .badge-icon {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        display: inline-grid;
-        place-items: center;
-        width: 36px;
-        height: 36px;
-        border-radius: 10px;
-        border: 1px solid var(--line);
-        font-size: 1.05rem;
-    }
-
-    .badge-blue {
-        background: var(--blue-bg);
-        color: var(--blue);
-    }
-
-    .badge-green {
-        background: var(--green-bg);
-        color: var(--green);
-    }
-
-    .badge-red {
-        background: var(--red-bg);
-        color: var(--red);
-    }
-
-    .img-band {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding: 6px 10px;
-        background: rgba(10,14,24,.65);
-        color: var(--text);
-        font-weight: 700;
-        font-size: .95rem;
-        text-align: center;
-    }
-
-    .tile-title {
-        font-weight: 800;
-        margin-bottom: 4px;
-        text-align: center;
-    }
-
-    .tile-text {
-        color: var(--muted);
-        font-size: .95rem;
-        margin: 0;
-        text-align: center;
-    }
 
     /* Estático: sin animaciones/hover */
     * {
         transition: none !important;
+    }
+
+    /* Layout */
+    .site-header {
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        background: #f4f4f4;
+    }
+
+    .controls .btn {
+        margin-left: 0.5rem;
+    }
+
+    /* Buttons */
+    .btn {
+        padding: 0.5em 0.75em;
+        font-size: 1em;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        background: #fff;
+        cursor: pointer;
+    }
+
+        .btn:focus {
+            outline: none;
+            box-shadow: var(--focus);
+        }
+
+    /* Accessible visible focus for keyboard users */
+    :focus {
+        outline: none;
+        box-shadow: var(--focus);
+    }
+
+    /* High contrast mode */
+    .high-contrast {
+        --bg: #000000;
+        --text: #ffffff;
+        --primary: #ffff00;
+        --accent: #00ffff;
+        background: var(--bg);
+        color: var(--text);
+    }
+
+        .high-contrast a {
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+    /* Images responsive and alt displayed if needed */
+    .responsive-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Screen-reader only */
+    .sr-only {
+        position: absolute !important;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0,0,0,0);
+        white-space: nowrap;
+        border: 0;
     }
 
 </style>

@@ -6,7 +6,7 @@
     --muted: #a6b2c6;
     --hero-a: #101a2f;
     --hero-b: #161d35;
-    /* Acentos */
+   
     --blue: #76a7ff;
     --blue-bg: rgba(118,167,255,.14);
     --green: #63dfb2;
@@ -16,7 +16,7 @@
     --radius: 16px;
 }
 
-/* Fondo y tipografía */
+/* Fondo  */
 body {
     background: var(--bg);
     color: var(--text);
@@ -33,7 +33,7 @@ body {
     color: var(--muted);
 }
 
-/* Utilidades de layout para el header */
+
 .header-wrap {
     max-width: 900px;
     margin: 0 auto;
@@ -48,7 +48,7 @@ body {
     align-items: center;
 }
 
-/* Tiles */
+
 .tile-link {
     text-decoration: none;
     color: inherit;
@@ -62,7 +62,7 @@ body {
     padding: 14px;
 }
 
-/* Imagen + badge + banda */
+
 .tile-img {
     position: relative;
     width: 100%;
@@ -134,7 +134,23 @@ body {
     text-align: center;
 }
 
-/* Estático: sin animaciones/hover */
+
 * {
     transition: none !important;
+}
+.TexPrincipal{
+    color:aliceblue;
+}
+.TexSecundario {
+    color: aliceblue;
+}
+label {
+    color: transparent;
+    /* o color igual al fondo, o display:none, etc. */
+}
+label,
+.form-label {
+    color: #fff !important;
+    display: inline-block !important;
+    visibility: visible !important;
 }

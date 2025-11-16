@@ -80,18 +80,8 @@
   },
   {
     "ContainingType": "API.Controllers.ReservasController",
-    "Method": "Get",
-    "RelativePath": "api/Reservas",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "API.Controllers.ReservasController",
     "Method": "Post",
-    "RelativePath": "api/Reservas",
+    "RelativePath": "api/Reservas/Agregar Reserva",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -106,24 +96,8 @@
   },
   {
     "ContainingType": "API.Controllers.ReservasController",
-    "Method": "Get",
-    "RelativePath": "api/Reservas/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "API.Controllers.ReservasController",
     "Method": "Put",
-    "RelativePath": "api/Reservas/{id}",
+    "RelativePath": "api/Reservas/Editar Reserva por ID",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -131,7 +105,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
+        "IsRequired": false
       },
       {
         "Name": "reserva",
@@ -144,7 +118,7 @@
   {
     "ContainingType": "API.Controllers.ReservasController",
     "Method": "Delete",
-    "RelativePath": "api/Reservas/{id}",
+    "RelativePath": "api/Reservas/Eliminar Reserva",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -152,15 +126,15 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "API.Controllers.UsuariosController",
+    "ContainingType": "API.Controllers.ReservasController",
     "Method": "Get",
-    "RelativePath": "api/Usuarios",
+    "RelativePath": "api/Reservas/Listar Reservas",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -168,17 +142,17 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "API.Controllers.UsuariosController",
-    "Method": "Post",
-    "RelativePath": "api/Usuarios",
-    "HttpMethod": "POST",
+    "ContainingType": "API.Controllers.ReservasController",
+    "Method": "Get",
+    "RelativePath": "api/Reservas/Listar_Reservas_por_ID",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "usuario",
-        "Type": "API.Model.UsuarioModel",
-        "IsRequired": true
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -234,6 +208,32 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.UsuariosController",
+    "Method": "Post",
+    "RelativePath": "api/Usuarios/Agregar Usuarios",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "API.Model.UsuarioModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.UsuariosController",
+    "Method": "Get",
+    "RelativePath": "api/Usuarios/Listar Usuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

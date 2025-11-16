@@ -26,7 +26,7 @@ namespace API.Controllers
 
         }
 
-        [HttpGet ("Listar Usuarios")]
+        [HttpGet("Listar Usuarios")]
 
         public IActionResult Get()
 
@@ -36,7 +36,7 @@ namespace API.Controllers
 
         }
 
-        [HttpGet("Listar Usuarios por ID")]
+        [HttpGet("{id}")]
 
         public IActionResult Get(int id)
 
@@ -52,7 +52,7 @@ namespace API.Controllers
 
         }
 
-        [HttpPost ("Agregar Usuarios")]
+        [HttpPost("Agregar Usuarios")]
 
         public IActionResult Post([FromBody] UsuarioModel usuario)
 
@@ -64,37 +64,26 @@ namespace API.Controllers
 
         }
 
-        [HttpPut("Editar Usuarios")]
-
+        [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] UsuarioModel usuario)
-
         {
-
             var ok = _service.Actualizar(id, usuario);
-
             if (!ok)
-
                 return NotFound();
 
             return Ok(new { mensaje = "Usuario actualizado correctamente" });
-
         }
 
-        [HttpDelete("Eliminar Usuarios")]
-
+        [HttpDelete("{id:int}")]
         public IActionResult Delete(int id)
-
         {
-
             var ok = _service.Eliminar(id);
-
             if (!ok)
-
                 return NotFound();
 
             return Ok(new { mensaje = "Usuario eliminado correctamente" });
-
         }
+
 
     }
 

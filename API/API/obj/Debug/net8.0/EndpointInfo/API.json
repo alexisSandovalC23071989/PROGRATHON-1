@@ -130,7 +130,7 @@
         }
       }
     },
-    "/api/Reservas": {
+    "/api/Reservas/Listar Reservas": {
       "get": {
         "tags": [
           "Reservas"
@@ -140,7 +140,31 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Reservas/Listar_Reservas_por_ID": {
+      "get": {
+        "tags": [
+          "Reservas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Reservas/Agregar Reserva": {
       "post": {
         "tags": [
           "Reservas"
@@ -171,28 +195,7 @@
         }
       }
     },
-    "/api/Reservas/{id}": {
-      "get": {
-        "tags": [
-          "Reservas"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
+    "/api/Reservas/Editar Reserva por ID": {
       "put": {
         "tags": [
           "Reservas"
@@ -200,8 +203,7 @@
         "parameters": [
           {
             "name": "id",
-            "in": "path",
-            "required": true,
+            "in": "query",
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -232,7 +234,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Reservas/Eliminar Reserva": {
       "delete": {
         "tags": [
           "Reservas"
@@ -240,8 +244,7 @@
         "parameters": [
           {
             "name": "id",
-            "in": "path",
-            "required": true,
+            "in": "query",
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -255,40 +258,11 @@
         }
       }
     },
-    "/api/Usuarios": {
+    "/api/Usuarios/Listar Usuarios": {
       "get": {
         "tags": [
           "Usuarios"
         ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "post": {
-        "tags": [
-          "Usuarios"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UsuarioModel"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UsuarioModel"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UsuarioModel"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "OK"
@@ -373,6 +347,37 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Usuarios/Agregar Usuarios": {
+      "post": {
+        "tags": [
+          "Usuarios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioModel"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"

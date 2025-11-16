@@ -9,17 +9,17 @@
 <form method="post">
     <div class="form-group">
         <label>Nombre</label>
-        <input asp-for="Usuario.Nombre" class="form-control" />
+        <input asp-for="Usuario.Nombre" type="text" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Tipo</label>
-        <input asp-for="Usuario.Tipo" class="form-control" />
+        <input asp-for="Usuario.Tipo" type="text"class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Correo</label>
-        <input asp-for="Usuario.Correo" class="form-control" />
+        <input asp-for="Usuario.Correo" type="email" class="form-control" />
     </div>
 
     <button type="submit" class="btn btn-primary">Guardar Cambios</button>

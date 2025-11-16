@@ -11,12 +11,12 @@ namespace Proyecto_Programacion.Pages.Laboratorios
 
         [BindProperty]
         public LaboratorioModel Laboratorio { get; set; } = new();
-
         public EditarModel(LaboratorioApiService laboratorioService)
         {
             _laboratorioService = laboratorioService;
         }
 
+       
         public async Task<IActionResult> OnGetAsync(int id)
         {
             Laboratorio = await _laboratorioService.ObtenerPorId(id);
@@ -26,10 +26,16 @@ namespace Proyecto_Programacion.Pages.Laboratorios
             return Page();
         }
 
-        public async Task<IActionResult> OnPostAsync(int id)
+       
+        public async Task<IActionResult> OnPostAsync()
         {
-            await _laboratorioService.Actualizar(id, Laboratorio);
+            if (!ModelState.IsValid)
+                return Page();
+
+            await _laboratorioService.Actualizar(Laboratorio);
+
             return RedirectToPage("/Laboratorios/Index");
         }
+
     }
 }

@@ -7,9 +7,13 @@
 <h2>Lista de Usuarios</h2>
 
 <a href="/Usuarios/Crear" class="btn btn-primary mb-3">Crear Usuario</a>
+<a asp-page="/Index" class="btn btn-primary mb-3">Volver</a>
 
-<table class="table table-striped">
-    <thead>
+
+
+
+<table class="table table-striped ">
+    <thead class="TexPrincipal">
         <tr>
             <th>Nombre</th>
             <th>Tipo</th>
@@ -17,13 +21,13 @@
             <th>Acciones</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody >
         @foreach (var u in Model.ListaUsuarios)
         {
-            <tr>
-                <td>@u.Nombre</td>
-                <td>@u.Tipo</td>
-                <td>@u.Correo</td>
+            <tr class="TexPrincipal" >
+                <td class="TexPrincipal">@u.Nombre</td>
+                <td class="TexPrincipal">@u.Tipo</td>
+                <td class="TexPrincipal">@u.Correo</td>
                 <td>
                     <a class="btn btn-warning btn-sm" href="/Usuarios/Editar?id=@u.Id">Editar</a>
                     <a class="btn btn-danger btn-sm" href="/Usuarios/Eliminar?id=@u.Id">Eliminar</a>

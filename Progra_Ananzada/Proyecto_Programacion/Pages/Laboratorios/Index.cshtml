@@ -7,9 +7,11 @@
 <h2>Lista de Laboratorios</h2>
 
 <a href="/Laboratorios/Crear" class="btn btn-primary mb-3">Crear Laboratorio</a>
+<a asp-page="/Index" class="btn btn-primary mb-3">Volver</a>
+
 
 <table class="table table-striped">
-    <thead>
+    <thead class="TexPrincipal">
         <tr>
             <th>Nombre</th>
             <th>Capacidad</th>
@@ -21,12 +23,13 @@
         @foreach (var l in Model.ListaLaboratorios)
         {
             <tr>
-                <td>@l.Nombre</td>
-                <td>@l.Capacidad</td>
-                <td>@l.Responsable</td>
+                <td class=TexPrincipal>@l.Nombre</td>
+                <td class="TexPrincipal">@l.Capacidad</td>
+                <td class="TexPrincipal">@l.Responsable</td>
                 <td>
-                    <a class="btn btn-warning btn-sm" href="/Laboratorios/Editar?id=@l.Id">Editar</a>
-                    <a class="btn btn-danger btn-sm" href="/Laboratorios/Eliminar?id=@l.Id">Eliminar</a>
+                    <a class="btn btn-warning btn-sm" href="/Laboratorios/Editar/@l.Id">Editar</a>
+                    <a class="btn btn-danger btn-sm" href="/Laboratorios/Eliminar/@l.Id">Eliminar</a>
+
                 </td>
             </tr>
         }

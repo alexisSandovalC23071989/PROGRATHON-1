@@ -1,5 +1,6 @@
-﻿@page
+﻿@page "{id:int}"
 @model Proyecto_Programacion.Pages.Laboratorios.EditarModel
+
 @{
     ViewData["Title"] = "Editar Laboratorio";
 }
@@ -7,21 +8,27 @@
 <h2>Editar Laboratorio</h2>
 
 <form method="post">
+    <!-- Id oculto para que se envíe en el POST -->
+    <input type="hidden" asp-for="Laboratorio.Id" />
+
     <div class="form-group">
-        <label>Nombre</label>
+        <label asp-for="Laboratorio.Nombre"></label>
         <input asp-for="Laboratorio.Nombre" class="form-control" />
+        <span asp-validation-for="Laboratorio.Nombre" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label>Ubicación</label>
-        <input asp-for="Laboratorio.Ubicacion" class="form-control" />
+        <label asp-for="Laboratorio.Responsable"></label>
+        <input asp-for="Laboratorio.Responsable" class="form-control" />
+        <span asp-validation-for="Laboratorio.Responsable" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label>Capacidad</label>
+        <label asp-for="Laboratorio.Capacidad"></label>
         <input asp-for="Laboratorio.Capacidad" class="form-control" />
+        <span asp-validation-for="Laboratorio.Capacidad" class="text-danger"></span>
     </div>
 
     <button type="submit" class="btn btn-primary">Guardar Cambios</button>
-    <a href="/Laboratorios" class="btn btn-secondary">Cancelar</a>
+    <a asp-page="/Laboratorios/Index" class="btn btn-secondary">Cancelar</a>
 </form>

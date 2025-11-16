@@ -1,4 +1,5 @@
 ﻿using Proyecto_Programacion.Models;
+using System.Net;
 
 
 namespace Proyecto_Programacion.Service
@@ -14,17 +15,26 @@ namespace Proyecto_Programacion.Service
 
         public async Task<List<UsuarioModel>> ObtenerTodos()
         {
-            return await _http.GetFromJsonAsync<List<UsuarioModel>>("api/usuarios");
+            return await _http.GetFromJsonAsync<List<UsuarioModel>>("api/usuarios/Listar Usuarios");
         }
 
-        public async Task<UsuarioModel> ObtenerPorId(int id)
+        public async Task<UsuarioModel?> ObtenerPorId(int id)
         {
-            return await _http.GetFromJsonAsync<UsuarioModel>($"api/usuarios/{id}");
-        }
+            var response = await _http.GetAsync($"api/Usuarios/{id}");
 
+            if (response.StatusCode == HttpStatusCode.NotFound)
+            {
+
+                return null;
+            }
+
+            response.EnsureSuccessStatusCode();
+
+            return await response.Content.ReadFromJsonAsync<UsuarioModel>();
+        }
         public async Task Crear(UsuarioModel usuario)
         {
-            await _http.PostAsJsonAsync("api/usuarios", usuario);
+            await _http.PostAsJsonAsync("api/usuarios/Agregar Usuarios", usuario);
         }
 
         public async Task Actualizar(int id, UsuarioModel usuario)
@@ -34,7 +44,8 @@ namespace Proyecto_Programacion.Service
 
         public async Task Eliminar(int id)
         {
-            await _http.DeleteAsync($"api/usuarios/{id}");
+            var response = await _http.DeleteAsync($"api/Usuarios/{id}");
+            response.EnsureSuccessStatusCode();
         }
+       }
     }
-}

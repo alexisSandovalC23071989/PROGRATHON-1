@@ -15,13 +15,16 @@ namespace API.Controllers
             _service = service;
         }
 
-        [HttpGet ("Listar Laboratorios")]
+        // GET api/Laboratorios
+        [HttpGet]
         public IActionResult Get()
         {
-            return Ok(_service.ObtenerTodos());
+            var lista = _service.ObtenerTodos();
+            return Ok(lista);
         }
 
-        [HttpGet("Agregar Laboratorio")]
+        // GET api/Laboratorios/5
+        [HttpGet("{id:int}")]
         public IActionResult Get(int id)
         {
             var lab = _service.ObtenerPorId(id);
@@ -31,14 +34,16 @@ namespace API.Controllers
             return Ok(lab);
         }
 
-        [HttpPost("Lista Laboratorio por ID")]
+        // POST api/Laboratorios
+        [HttpPost]
         public IActionResult Post([FromBody] LaboratorioModel lab)
         {
             _service.Agregar(lab);
             return Ok(new { mensaje = "Laboratorio agregado correctamente" });
         }
 
-        [HttpPut("Editar Laboratorio por ID")]
+        // PUT api/Laboratorios/5
+        [HttpPut("{id:int}")]
         public IActionResult Put(int id, [FromBody] LaboratorioModel lab)
         {
             var ok = _service.Actualizar(id, lab);
@@ -48,7 +53,8 @@ namespace API.Controllers
             return Ok(new { mensaje = "Laboratorio actualizado correctamente" });
         }
 
-        [HttpDelete("Eliminar Laboratorios por ID")]
+        // DELETE api/Laboratorios/5
+        [HttpDelete("{id:int}")]
         public IActionResult Delete(int id)
         {
             var ok = _service.Eliminar(id);
